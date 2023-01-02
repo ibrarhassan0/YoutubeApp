@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <Button
+        android:id="@+id/btnplayvideo"
+        android:layout_width="235dp"
+        android:layout_height="87dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="84dp"
+        android:text="play video"
+        android:textSize="30sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnplaylist"
+        android:layout_width="326dp"
+        android:layout_height="97dp"
+        android:layout_marginTop="68dp"
+        android:text="Play playlist"
+        android:textSize="30sp"
+        app:layout_constraintStart_toStartOf="@+id/btnplayvideo"
+        app:layout_constraintTop_toBottomOf="@+id/btnplayvideo" />
+</androidx.constraintlayout.widget.ConstraintLayout>
